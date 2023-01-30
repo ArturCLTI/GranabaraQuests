@@ -5,8 +5,8 @@ function carregar(){
 
   const img = document.getElementById("imagem");
 
-  // const hora = data.getHours();
-  let hora = 24;
+   const hora = data.getHours();
+
 
   msg.innerHTML = `Agora são ${hora} horas.`;
   console.log(msg);
